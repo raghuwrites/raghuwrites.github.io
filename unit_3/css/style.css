@@ -1,6 +1,6 @@
 
 #header { 
-  background: url('https://cdn.pixabay.com/photo/2015/12/17/02/22/milky-way-1096815_960_720.jpg') no-repeat center center; 
+  background: url('images/milky-way.jpg') no-repeat center center; 
   /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
   -webkit-background-size: cover;
   -moz-background-size: cover;
