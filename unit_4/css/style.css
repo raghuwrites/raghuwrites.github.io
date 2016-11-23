@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@import url('https://fonts.googleapis.com/css?family=Exo+2|Slabo+27px');
 
 #header { 
   background: url('https://raghuwrites.github.io/unit_3/images/milky-way.jpg') no-repeat center center; 
@@ -57,6 +57,7 @@ body {
 
 p {
   font-size: 20px;
+  font-family: 'Slabo 27px', serif;
 }
 
 li {
