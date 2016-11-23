@@ -1,5 +1,64 @@
 
-@import url('https://fonts.googleapis.com/css?family=Exo+2|Slabo+27px');
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lora');
+
+/*ELEMENT SELECTORS*/
+
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 800;
+  position: relative;
+  top: 40%;
+}
+
+body {
+  margin: 0px 0px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+/*CLASSES*/
+
+.column {
+  padding-top: 50px;
+  width: 95%;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.column .section {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+
+.column .section .examples {
+  width: 95%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+/*IDS*/
 
 #header { 
   background: url('https://raghuwrites.github.io/unit_3/images/milky-way.jpg') no-repeat center center; 
@@ -13,16 +72,6 @@
   padding-top: 1px;
 }
 
-h1 {
-  color: #fff;
-  font-family: 'Exo 2', sans-serif;
-  text-align: center;
-  font-size: 3em;
-  text-transform: uppercase;
-  font-weight: bold;
-  position: relative;
-  top: 43%;
-}
 
 #slogan {
   position:absolute;
@@ -30,46 +79,18 @@ h1 {
   text-align: center;
   width: 100%;
   color: #fff;
-  font-size: 20px;
+  font-size: 1.2em;
   top: 54%;
   font-style: italic;
+  font-family: 'Lora', serif;
 }
 
 #call {
   color: #fff;
-  font-family: Helvetica;
+  font-family: 'Lora', serif;
   bottom: 20px;
   position: absolute;
   text-align: center;
-  width: 100%;
-}
-
-body {
-  margin: 0px 0px;
-}
-
-.column {
-  padding-top: 50px;
-  width: 95%;
-  max-width: 450px;
-  margin: 0 auto;
-}
-
-p {
-  font-size: 20px;
-  font-family: 'Slabo 27px', serif;
-}
-
-li {
-  font-size: 20px;
-}
-
-h2 {
-  text-align: center;
-  font-family: 'Exo 2', sans-serif;
-}
-
-img {
   width: 100%;
 }
 
