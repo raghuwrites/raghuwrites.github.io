@@ -12,12 +12,11 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
   font-weight: 800;
-  position: relative;
-  top: 40%;
 }
 
 body {
   margin: 0px 0px;
+  font-size: 20px;
 }
 
 p {
@@ -58,6 +57,15 @@ img {
   margin: 0 auto;
 }
 
+.fa-chevron-circle-down {
+  color: white;
+  position: absolute;
+  font-size: 1em;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
 /*IDS*/
 
 #header { 
@@ -72,10 +80,14 @@ img {
   padding-top: 1px;
 }
 
+#title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
 
 #slogan {
-  position:absolute;
-  top: 50%;
   text-align: center;
   width: 100%;
   color: #fff;
@@ -88,9 +100,6 @@ img {
 #call {
   color: #fff;
   font-family: 'Lora', serif;
-  bottom: 20px;
-  position: absolute;
   text-align: center;
-  width: 100%;
 }
 
