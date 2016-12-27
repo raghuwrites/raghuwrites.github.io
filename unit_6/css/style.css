@@ -125,6 +125,24 @@ article {
     height: 0;
 }
 
+.two_column {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+.left {
+    padding: 5px;
+    float: left;
+    width: 48%;
+}
+
+.right {
+    padding: 5px;
+    float: right;   
+    width: 48%;
+}
+
 /*IDS*/
 
 
@@ -152,20 +170,4 @@ article {
   text-align: center;
 }
 
-#two_column {
-    padding: 5px;
-    width: 100%;
-    text-align: center;
-}
 
-#left {
-    padding: 5px;
-    float: left;
-    width: 48%;
-}
-
-#right {
-    padding: 5px;
-    float: right;   
-    width: 48%;
-}
