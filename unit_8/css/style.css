@@ -64,7 +64,7 @@ nav li a:hover {
 
 
 header { 
-    background: url('https://raghuwrites.github.io/unit_3/images/milky-way.jpg') no-repeat center center; 
+    background: url('https://raghuwrites.github.io/unit_8/images/stories.png') no-repeat center center; 
     /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
