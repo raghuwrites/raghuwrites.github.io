@@ -1,0 +1,171 @@
+
+/*FONT*/
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Lora');
+
+/*ELEMENT SELECTORS*/
+
+h1 {
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  font-size: 3em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+body {
+  margin: 0px 0px;
+  font-size: 20px;
+}
+
+p {
+  font-size: 20px;
+}
+
+li {
+  font-size: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-transform: uppercase;
+}
+
+img {
+  width: 100%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+/*    background-color: rgb (0,0,0,0.0);
+*/}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111;
+}
+
+
+header { 
+    background: url('https://raghuwrites.github.io/unit_3/images/milky-way.jpg') no-repeat center center; 
+    /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    padding-top: 1px;
+    padding: 20px;
+}
+
+section {
+    font-size: 20px;
+    font-family: 'Lora', serif;
+    padding-top: 50px;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+footer {
+    padding-top: 50px;
+    width: 95%;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+article {
+    padding: 20px;
+}
+
+
+/*CLASSES*/
+
+.section .examples {
+  width: 95%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.fa-chevron-circle-down {
+  color: white;
+  position: absolute;
+  font-size: 1em;
+  bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+/*IDS*/
+
+
+
+#title {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  transform: translateY(-50%);
+}
+
+#slogan {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+  font-size: 1.2em;
+  top: 54%;
+  font-style: italic;
+  font-family: 'Lora', serif;
+}
+
+#call {
+  color: #fff;
+  font-family: 'Lora', serif;
+  text-align: center;
+}
+
+#two_column {
+    padding: 5px;
+    width: 100%;
+    text-align: center;
+}
+
+#left {
+    padding: 5px;
+    float: left;
+    width: 48%;
+}
+
+#right {
+    padding: 5px;
+    float: right;   
+    width: 48%;
+}
