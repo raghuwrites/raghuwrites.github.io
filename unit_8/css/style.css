@@ -3,6 +3,12 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans|Lora');
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*ELEMENT SELECTORS*/
 
 h1 {
@@ -64,7 +70,7 @@ nav li a:hover {
 
 
 header { 
-    background: url('https://raghuwrites.github.io/unit_8/images/stories.png') no-repeat center center; 
+    background: url('https://raghuwrites.github.io/unit_8/images/header-logo.jpg') no-repeat center center; 
     /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -132,15 +138,31 @@ article {
 }
 
 .left {
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     float: left;
-    width: 48%;
+    width: 50%;
 }
 
 .right {
-    padding: 5px;
+    padding: 5px 5px 0 5px;
     float: right;   
-    width: 48%;
+    width: 50%;
+}
+
+.video-container {
+  width: 100%;
+  height: 56.25vw;
+  max-height: 338px;
+  position: relative;
+}
+
+.video-container iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 /*IDS*/
