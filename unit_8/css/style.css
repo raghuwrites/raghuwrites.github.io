@@ -11,26 +11,18 @@
 
 /*ELEMENT SELECTORS*/
 
+body {
+  margin: 0px 0px;
+  font-size: 14px;
+}
+
 h1 {
-  color: #000;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
   font-weight: 800;
-}
-
-body {
-  margin: 0px 0px;
-  font-size: 20px;
-}
-
-p {
-  font-size: 20px;
-}
-
-li {
-  font-size: 20px;
 }
 
 h2 {
@@ -49,8 +41,8 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-/*    background-color: rgb (0,0,0,0.0);
-*/}
+    background-color: rgba (0,0,0,0.0);
+}
 
 nav li {
     float: left;
@@ -83,10 +75,10 @@ header {
 }
 
 section {
-    font-size: 20px;
+/*    font-size: 20px;*/
     font-family: 'Lora', serif;
     padding-top: 50px;
-    width: 95%;
+    width: 90%;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -94,7 +86,7 @@ section {
 
 footer {
     padding-top: 50px;
-    width: 95%;
+    width: 90%;
     max-width: 600px;
     margin: 0 auto;
     padding: 20px;
@@ -142,7 +134,6 @@ article {
     float: left;
     width: 50%;
 }
-
 .right {
     padding: 5px 5px 0 5px;
     float: right;   
