@@ -62,7 +62,7 @@ nav li a:hover {
 
 
 header { 
-    background: url('https://raghuwrites.github.io/unit_8/images/header-logo.jpg') no-repeat center center; 
+    background: url('https://raghuwrites.github.io/unit_8/images/desert-road.png') no-repeat center center; 
     /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -163,7 +163,14 @@ article {
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
+  text-align: center;
 }
+
+/*#title h1 {
+  border: 1px solid white;
+  padding: 1em;
+  color: #fff;
+}*/
 
 #slogan {
   text-align: center;
