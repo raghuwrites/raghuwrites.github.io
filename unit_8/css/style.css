@@ -196,8 +196,12 @@ article {
 /*MEDIA QUERIES*/
 
 @media only screen and (max-width: 600px) {
-  nav, body {
-  font-size: 1.2em;
+  nav {
+    font-size: .8em;
+  } 
+
+  body {
+    font-size: 1.2em;
   }
   .right {
     float: none;
