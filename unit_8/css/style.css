@@ -196,11 +196,10 @@ article {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 540px) {
   nav {
     font-size: .8em;
   } 
-
   body {
     font-size: 1.2em;
   }
