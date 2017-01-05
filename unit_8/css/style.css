@@ -17,7 +17,7 @@ body {
 }
 
 h1 {
-  color: #000;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   text-align: center;
   font-size: 3.5em;
@@ -38,8 +38,7 @@ img {
 
 nav ul {
     list-style-type: none;
-      font-family: 'Open Sans', sans-serif;
-
+    font-family: 'Open Sans', sans-serif;
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -54,48 +53,48 @@ nav li a {
     display: block;
     color: black;
     text-align: center;
-    padding: 14px 16px;
+    padding: 0.8em 1em;
     text-decoration: none;
 }
 
-nav li a:hover {
+/*nav li a:hover {
     background-color: #111;
 }
-
+*/
 
 header { 
-/*    background: url('https://raghuwrites.github.io/unit_8/images/desert-road.png') no-repeat center center; 
-*/    /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
+    background: url('https://raghuwrites.github.io/unit_8/images/header.jpg') no-repeat center center; 
+    /*for some reason, every time I set the path to images/milky-way.jpg, the error message said images folder is in CSS folder*/
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     height: 100vh;
     position: relative;
-    padding-top: 1px;
+    /*padding-top: 1px;*/
 /*    padding: 20px;*/
 }
 
 section {
 /*    font-size: 20px;*/
     font-family: 'Lora', serif;
-    padding-top: 50px;
+    padding-top: 3.1em;
     width: 95%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.2em;
 }
 
 footer {
-    padding-top: 50px;
+    padding-top: 3.1em;
     width: 95%;
     max-width: 600px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 1.2em;
 }
 
 article {
-    padding: 20px;
+    padding: 1.2em;
 }
 
 
@@ -111,7 +110,7 @@ article {
   color: white;
   position: absolute;
   font-size: 1em;
-  bottom: 10px;
+  bottom: .6em;
   width: 100%;
   text-align: center;
 }
@@ -196,22 +195,15 @@ article {
 
 /*MEDIA QUERIES*/
 
-@media only screen and (min-width: 1440px) {
+@media only screen and (max-width: 600px) {
   nav, body {
   font-size: 1.2em;
-}
-
-@media only screen and (max-width: 640px) {
-  .section .two_column {
-    width: 100%;
-  }
-
-  .left {
-    float: none;
-    width: auto;
   }
   .right {
     float: none;
-    width: auto;
+    width: 100%;
   }
-
+  .left {
+    float: none;
+    width: 100%;
+  }
