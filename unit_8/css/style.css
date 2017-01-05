@@ -51,16 +51,16 @@ nav li {
 
 nav li a {
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 0.8em 1em;
     text-decoration: none;
 }
 
-/*nav li a:hover {
+nav li a:hover {
     background-color: #111;
 }
-*/
+
 
 header { 
     background: url('https://raghuwrites.github.io/unit_8/images/header.jpg') no-repeat center center; 
