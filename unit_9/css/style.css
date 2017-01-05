@@ -158,6 +158,10 @@ article {
   border-radius: 50%;
 }
 
+p.caption {
+  font-size: .8em;
+}
+
 /*IDS*/
 
 #title {
