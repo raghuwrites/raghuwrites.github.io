@@ -192,6 +192,8 @@ p.caption {
     overflow:hidden;
     margin:0; padding:0;
     list-style:none;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .soc li {
@@ -212,8 +214,8 @@ p.caption {
     -o-box-sizing:border-box;
     box-sizing:border-box;
     overflow:hidden;
-    text-decoration:none;
-    text-align:center;
+    text-decoration: none;
+    text-align: center;
     display:block;
     position: relative;
     z-index: 1;
@@ -224,8 +226,8 @@ p.caption {
     -webkit-border-radius: 0px;
     -moz-border-radius: 0px;
     border-radius: 0px;
-    margin-right: 12px;
-    color: #ffffff;
+/*    margin-right: 12px;
+*/    color: #ffffff;
     background-color: #16313A;
 }
 
